@@ -4,3 +4,75 @@ body {
     font-style: normal;
     font-weight: bold;
 }
+.WebStudio {
+    font-size: 26px;
+}
+.WebStudio2 {
+    font-size: 26px;
+}
+.Portfolio {
+    font-size: 14px;
+}
+.Contacts {
+    font-size: 14px;
+}
+.Mail {
+    font-size: 14px;
+}
+.Number {
+    font-size: 14px;
+}
+.Details {
+    font-size: 14px;
+}
+.Punctuality {
+    font-size: 14px;
+}
+.Plan {
+    font-size: 14px;
+}
+.ModernTechnology {
+    font-size: 14px;
+}
+.Details + p {
+    font-size: 14px;
+}
+.Punctuality + p {
+    font-size: 14px;
+}
+.Plan + p {
+    font-size: 14px;
+}
+.ModernTechnology + p {
+    font-size: 14px;
+}
+.list {
+    font-size: 36px;
+}
+.list2 {
+    font-size: 36px;
+}
+.name1 {
+    font-size: 16px;
+}
+.name2 {
+    font-size: 16px;
+}
+.name3 {
+    font-size: 16px;
+}
+.name4 {
+    font-size: 16px;
+}
+.name1 + p {
+    font-size: 16px;
+}
+.name2 + p {
+    font-size: 16px;
+}
+.name3 + p {
+    font-size: 16px;
+}
+.name4 + p {
+    font-size: 16px;
+}
