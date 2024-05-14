@@ -1,76 +1,169 @@
+:root {
+    --accent-color: #757575;
+    --accent-color: #212121;
+}
+
 body {
     font-family: "Roboto" , sans-serif;
     font-style: normal;
 }
-.WebStudio {
+
+.webStudio {
+    font-family: "Raleway", sans-serif ;
     font-size: 26px;
+    font-weight: 700px;
 }
-.WebStudio2 {
-    font-size: 26px;
+.studio2 {
+    color: #2196F3;
 }
-.Portfolio {
+.portfolio {
     font-size: 14px;
+    font-weight: 500px;
+    color: #212121;
 }
-.Contacts {
+.contacts {
+    font-weight: 500px;
     font-size: 14px;
+    color: #212121;
 }
-.Mail {
+.mail {
+    font-weight: 500px;
     font-size: 14px;
+    color: #2196F3;
 }
-.Number {
+.number {
+    font-weight: 500px;
     font-size: 14px;
+    color: #757575;
 }
-.Details {
-    font-size: 14px;
+h1 {
+    color: #FFFFFF;
+    background-color: #2F303A;
 }
-.Punctuality {
-    font-size: 14px;
+.button {
+    background-color: #2196F3;
+    color: aliceblue;
 }
-.Plan {
+.details {
+    font-weight: 700px;
     font-size: 14px;
+    color: #212121;
 }
-.ModernTechnology {
+.punctuality {
+    font-weight: 700px;
     font-size: 14px;
+    color: #212121;
 }
-.Details + p {
+.plan {
+    font-weight: 700px;
     font-size: 14px;
+    color: #212121;
 }
-.Punctuality + p {
+.moderntechnology {
+    font-weight: 700px;
     font-size: 14px;
-}
-.Plan + p {
-    font-size: 14px;
-}
-.ModernTechnology + p {
-    font-size: 14px;
+    color: #212121;
 }
 .list {
     font-size: 36px;
+    font-weight: 700px;
+    color: #212121;
 }
 .list2 {
     font-size: 36px;
+    font-weight: 700px;
+    color: #212121;
+}
+.details + p {
+    font-weight: 400px;
+    font-size: 14px;
+    color: #757575;
+ }
+.punctuality + p {
+    font-weight: 400px;
+    font-size: 14px;
+    color: #757575;
+}
+.plan + p {
+    font-weight: 400px;
+    font-size: 14px;
+    color: #757575;
+}
+.moderntechnology + p {
+    font-weight: 400px;
+    font-size: 14px;
+    color: #757575;
+}
+.list {
+    font-weight: 700px;
+    font-size: 36px;
+    color: #212121;
+}
+.list2 {
+    font-weight: 700px;
+    font-size: 36px;
+    color: #212121;
 }
 .name1 {
+    font-weight: 500px;
     font-size: 16px;
+    color: #212121;
 }
 .name2 {
+    font-weight: 500px;
     font-size: 16px;
+    color: #212121;
 }
 .name3 {
+    font-weight: 500px;
     font-size: 16px;
+    color: #212121;
 }
 .name4 {
+    font-weight: 500px;
     font-size: 16px;
+    color: #212121;
 }
 .name1 + p {
+    font-weight: 400px;
     font-size: 16px;
+    color: #757575;
 }
 .name2 + p {
+    font-weight: 400px;
     font-size: 16px;
+    color: #757575;
 }
 .name3 + p {
+    font-weight: 400px;
     font-size: 16px;
+    color: #757575;
 }
 .name4 + p {
+    font-weight: 400px;
     font-size: 16px;
+    color: #757575;
+}
+footer {
+    background-color: #2F303A;
+}
+.adress {
+    font-size: 14px;
+    font-weight: 400px;
+    color: #FFFFFF;
+}
+.mail2 {
+    font-weight: 400px;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.number2 {
+    font-weight: 400px;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.webStudio2 {
+    font-family: "Raleway", sans-serif ;
+    font-size: 26px;
+    font-weight: 700px;
 }
