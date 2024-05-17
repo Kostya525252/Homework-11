@@ -8,10 +8,16 @@ body {
     font-style: normal;
 }
 
-.webStudio {
+.logo {
     font-family: "Raleway", sans-serif ;
     font-size: 26px;
     font-weight: 700;
+    color: #2196F3;
+}
+.logotyp {
+    font-size: 26px;
+    font-weight: 700;
+    color: #000000;
 }
 .studio2 {
     color: #2196F3;
@@ -34,6 +40,23 @@ body {
 .number {
     font-weight: 500;
     font-size: 14px;
+    color: #757575;
+}
+.title {
+    font-size: 44px;
+}
+.font_family2 {
+    font-family: "Roboto" , sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+ 
+.button2:hover {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+h3 + p {
     color: #757575;
 }
 h1 {
@@ -162,8 +185,14 @@ footer {
     font-size: 14px;
     color: #FFFFFF;
 }
-.webStudio2 {
+.logo1 {
     font-family: "Raleway", sans-serif ;
     font-size: 26px;
     font-weight: 700;
+    color: #2196F3;
+}
+.logotyp1 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #FFFFFF;
 }
