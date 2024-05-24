@@ -1,23 +1,217 @@
 :root {
-    --accent-color: #2196F3;
+    --header-logo: #2196F3;
     --accent-color: #757575;
     --accent-color: #212121;
     --logo-color: #000;
     --aditional-color: #757575;
     --footer-background: #2F303A;
-    --footer-number: rgba(255, 255, , 255, 0.60);
+    --footer-number: rgba(255, 255, 255, 0.60);
     --main-background: #FFF;
     --team-background: #F5F4FA;
+    --title-color: #212121;
 }
 
 body {
     font-family: "Roboto", sans-serif;
 }
+
 .header-logo {
-color: var(--accent-color);
-font-family: "Raleway";
-font-size: 26px;
-font-weight: 700;
-line-height: 1.38;
-letter-spacing: 0.78px;
+    color: var(--logo-color);
+    font-family: "Raleway";
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.38;
+    letter-spacing: 0.78px;
+}
+
+.logo-web {
+    color: var(--header-logo);
+    font-family: "Raleway";
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.38;
+    letter-spacing: 0.78px;
+}
+
+.nav-link {
+    color: #212121;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.28px;
+}
+
+.nav-link:hover {
+    color: var(--header-logo);
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.28px;
+}
+
+.header-link {
+    color: var(--aditional-color);
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.28px;
+}
+
+.header-link:hover {
+    color: var(--header-logo);
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.28px;
+}
+
+.hero {
+    background-color: var(--footer-background);
+    
+}
+
+.hero-title {
+    color: var(--main-background);
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+}
+
+.hero-button {
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.87;
+    letter-spacing: 0.96px;
+    background-color: var(--header-logo);
+    color: var(--main-background);
+}
+
+.advantages-features {
+    color: var(--title-color);
+    font-family: "Roboto";
+    width: 270px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
+.advantages-about {
+    color: var(--aditional-color);
+    font-family: "Roboto";
+    width: 270px;
+    height: 72px;
+    flex-shrink: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+}
+
+.work-title {
+    color: var(--title-color);
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 1.08px;
+}
+
+.work-img {
+    width: 370px;
+    height: 294px;
+    flex-shrink: 0;
+}
+
+.team {
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.66;
+    letter-spacing: 1.08px;
+}
+
+.team-img {
+    width: 270px;
+    height: 260px;
+    flex-shrink: 0;
+}
+
+.team-caption {
+    color: var(--title-color);
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.18;
+    letter-spacing: 0.48px;
+}
+
+.team-desc {
+    color: var(--aditional-color);
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.18;
+    letter-spacing: 0.48px;
+}
+
+footer {
+    background-color: var(--footer-background);
+}
+
+.footer-logo {
+    color: var(--main-background);
+    font-family: "Raleway";
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.38;
+    letter-spacing: 0.78px;
+}
+
+.logo-color {
+    color: var(--header-logo);
+    font-family: "Raleway";
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.38;
+    letter-spacing: 0.78px;
+}
+
+.address-item {
+    color: var(--main-background);
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+}
+
+.address-link {
+    color: var(--footer-number);
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+} 
+.address-link:hover {
+    color: var(--header-logo);
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
 }
