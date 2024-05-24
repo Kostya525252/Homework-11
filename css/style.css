@@ -1,15 +1,23 @@
 :root {
-    --accent-color:  #2196F3;
+    --accent-color: #2196F3;
     --accent-color: #757575;
     --accent-color: #212121;
     --logo-color: #000;
-    --aditional-color:#757575;
+    --aditional-color: #757575;
     --footer-background: #2F303A;
-    --footer-number: #FFFFFF;
+    --footer-number: rgba(255, 255, , 255, 0.60);
     --main-background: #FFF;
+    --team-background: #F5F4FA;
 }
 
 body {
-    font-family: "Roboto" , sans-serif;
+    font-family: "Roboto", sans-serif;
 }
-
+.header-logo {
+color: var(--accent-color);
+font-family: "Raleway";
+font-size: 26px;
+font-weight: 700;
+line-height: 1.38;
+letter-spacing: 0.78px;
+}
