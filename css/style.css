@@ -1,6 +1,5 @@
 :root {
     --header-logo: #2196F3;
-    --accent-color: #757575;
     --accent-color: #212121;
     --logo-color: #000;
     --aditional-color: #757575;
@@ -71,7 +70,9 @@ body {
 
 .hero {
     background-color: var(--footer-background);
-    
+    width: 1600px;
+    height: 600px;
+    flex-shrink: 0;
 }
 
 .hero-title {
@@ -80,7 +81,7 @@ body {
     font-family: "Roboto";
     font-size: 44px;
     font-weight: 900;
-    line-height: 60px;
+    line-height: 1.87;
     letter-spacing: 2.64px;
     text-transform: uppercase;
 }
@@ -206,7 +207,8 @@ footer {
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.42px;
-} 
+}
+
 .address-link:hover {
     color: var(--header-logo);
     font-family: "Roboto";
@@ -214,4 +216,42 @@ footer {
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.42px;
+}
+
+.content-title {
+    color: var(--title-color);
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 1.08px;
+}
+
+.content-about {
+    color: var(--aditional-color);
+    font-family: "Roboto";
+    width: 322px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.87;
+    letter-spacing: 0.48px;
+}
+
+.btn-list:hover {
+    width: 125px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    color: var(--team-background);
+    background-color: var(--header-logo);
+}
+
+.btn-list {
+    color: var(--title-color);
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.62;
+    letter-spacing: 0.48px;
 }
