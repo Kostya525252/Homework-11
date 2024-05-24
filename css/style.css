@@ -70,9 +70,19 @@ body {
 
 .hero {
     background-color: var(--footer-background);
+    color: var(--main-background);
+    text-align: center;
+    font-family: "Roboto";
     width: 1600px;
     height: 600px;
-    flex-shrink: 0;
+    line-height: 1.87;
+    letter-spacing: 0.96px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 350px;
+
 }
 
 .hero-title {
@@ -95,6 +105,7 @@ body {
     letter-spacing: 0.96px;
     background-color: var(--header-logo);
     color: var(--main-background);
+
 }
 
 .advantages-features {
