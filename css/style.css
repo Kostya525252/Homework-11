@@ -1,0 +1,15 @@
+:root {
+    --accent-color:  #2196F3;
+    --accent-color: #757575;
+    --accent-color: #212121;
+    --logo-color: #000;
+    --aditional-color:#757575;
+    --footer-background: #2F303A;
+    --footer-number: #FFFFFF;
+    --main-background: #FFF;
+}
+
+body {
+    font-family: "Roboto" , sans-serif;
+}
+
