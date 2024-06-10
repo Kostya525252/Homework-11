@@ -24,29 +24,17 @@ img {
     display: block;
 }
 
-* {
-    padding: 0px;
-    margin: 0px;
-    border: none;
-    list-style: none;
-}
-:where(
 h1,
 h2,
 h3,
 h4,
 h5,
 h6,
-p,
-ul)
+p
 
-input,textarea,button{
-    font: inherit;
+{
+    margin: 0;
 }
-*::before,*::after {
-    box-sizing: border-box;
-}
-
 
 body {
     font-family: "Roboto", sans-serif;
