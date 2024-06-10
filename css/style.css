@@ -24,17 +24,11 @@ img {
     display: block;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p
-
+h1,h2,h3,h4,h5,h6,p
 {
     margin: 0;
 }
+
 
 body {
     font-family: "Roboto", sans-serif;
@@ -138,7 +132,7 @@ body {
 .advantages-text {
     color: var(--aditional-color);
     width: 270px;
-    height: 72px;
+    
     flex-shrink: 0;
     font-size: 14px;
     font-weight: 400;
