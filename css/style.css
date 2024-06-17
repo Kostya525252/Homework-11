@@ -24,14 +24,35 @@ img {
     display: block;
 }
 
-h1,h2,h3,h4,h5,h6,p
-{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     margin: 0;
 }
 
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 0px;
+    outline: 1px solid red;
+}
 
 body {
     font-family: "Roboto", sans-serif;
+}
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.header-box {
+    display: flex;
+    align-items: center;
 }
 
 .header-logo {
@@ -41,6 +62,8 @@ body {
     font-weight: 700;
     line-height: 1.38;
     letter-spacing: 0.78px;
+    display: flex;
+    margin-right: 93px;
 }
 
 .logo-web {
@@ -50,6 +73,35 @@ body {
     font-weight: 700;
     line-height: 1.38;
     letter-spacing: 0.78px;
+}
+
+.header-link {
+    color: var(--aditional-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.28px;
+}
+
+.header-link:hover {
+    color: var(--header-logo);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.28px;
+}
+
+.header-list {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 344px;
+    gap: 50px;
+}
+
+
+.nav-list {
+    display: flex;
+    gap: 50px;
 }
 
 .nav-link {
@@ -68,20 +120,31 @@ body {
     letter-spacing: 0.28px;
 }
 
-.header-link {
-    color: var(--aditional-color);
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.28px;
-}
 
-.header-link:hover {
-    color: var(--header-logo);
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.28px;
+
+  
+  .hero-button {
+    margin-top: 30px;
+    margin-bottom: 200px;
+    
+  }
+  
+ 
+ 
+
+.hero-button {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.87;
+    letter-spacing: 0.96px;
+    background-color: var(--header-logo);
+    color: var(--main-background);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+
 }
 
 .hero {
@@ -106,17 +169,24 @@ body {
     line-height: 1.87;
     letter-spacing: 2.64px;
     text-transform: uppercase;
+    margin-top: 350px;
 }
 
-.hero-button {
-    text-align: center;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 1.87;
-    letter-spacing: 0.96px;
-    background-color: var(--header-logo);
-    color: var(--main-background);
 
+
+
+
+
+
+.advantages-list {
+    display: flex;
+    padding-top: 94px;
+    padding-bottom: 176px;
+    gap: 30px;
+
+}
+.team-caption  {
+    padding-bottom: 10px;
 }
 
 .advantages-features {
@@ -132,12 +202,23 @@ body {
 .advantages-text {
     color: var(--aditional-color);
     width: 270px;
-    
+
     flex-shrink: 0;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.42px;
+}
+
+.work-list {
+    display: flex;
+    gap: 30px;
+    padding-top: 50px;
+}
+
+.work {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .work-title {
@@ -153,6 +234,22 @@ body {
     width: 370px;
     height: 294px;
     flex-shrink: 0;
+}
+
+.team-list {
+    display: flex;
+    gap: 30px;
+    padding-top: 50px;
+}
+
+.team-img {
+    padding-bottom: 30px;
+    gap: 183px;
+}
+
+.team {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .team {
@@ -185,7 +282,25 @@ body {
     letter-spacing: 0.48px;
 }
 
-footer {
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+.address {
+    padding-top: 20px;
+}
+
+
+
+.address-link {
+padding-top: 9px;
+display: flex;
+}
+
+
+
+.footer {
     background-color: var(--footer-background);
 }
 
