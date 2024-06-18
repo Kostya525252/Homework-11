@@ -362,7 +362,14 @@ display: flex;
     line-height: 1.87;
     letter-spacing: 0.48px;
 }
-
+.button-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 126px;
+}
 .btn-item:hover {
     width: 125px;
     height: 38px;
@@ -379,4 +386,20 @@ display: flex;
     font-weight: 500;
     line-height: 1.62;
     letter-spacing: 0.48px;
+}
+
+.content-title {
+    display: flex;
+    padding-top: 20px;
+    
+}
+.footer {
+    display: flex;
+    margin-top: 114px;
+}
+  
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
 }
