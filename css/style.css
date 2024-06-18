@@ -93,8 +93,7 @@ p {
 
 .header-list {
     display: flex;
-    justify-content: flex-end;
-    margin-left: 344px;
+    margin-left:  auto;
     gap: 50px;
 }
 
@@ -155,9 +154,7 @@ p {
 }
 
 .advantages {
-    padding-top: 115px;
-    padding-bottom: 118px;
-    padding-top: 115px;
+    padding-top: 94px;
 }
 
 .advantages-list {
@@ -174,6 +171,7 @@ p {
     line-height: 1.14;
     letter-spacing: 0.42px;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 .advantages-text {
@@ -189,7 +187,6 @@ p {
 .work-list {
     display: flex;
     gap: 30px;
-    padding-top: 50px;
 }
 
 
@@ -201,10 +198,11 @@ p {
     font-weight: 700;
     line-height: 1.16;
     letter-spacing: 1.08px;
+    margin-bottom: 50px;
 }
 
 .work {
-    padding-top: 118px;
+    padding-top: 94px;
     padding-bottom: 94px;
 }
 
@@ -212,6 +210,17 @@ p {
     width: 370px;
     height: 294px;
     
+}
+
+.team-title {
+    text-align: center;
+font-family: "Roboto";
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+margin-bottom: 50px;
 }
 
 .team-list {
@@ -245,6 +254,7 @@ p {
     line-height: 1.18;
     letter-spacing: 0.48px;
     padding-top: 30px;
+    padding-bottom: 10px;
 }
 
 .team-desc {
@@ -255,13 +265,7 @@ p {
     letter-spacing: 0.48px;
     display: flex;
     justify-content: center;
-    padding-top: 10px;
-}
-
-.footer {
-    padding-top: 60px;
-    padding-bottom: 60px;
-
+    
 }
 
 .address {
@@ -279,6 +283,8 @@ p {
 
 .footer {
     background-color: var(--footer-background);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer-logo {
