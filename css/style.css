@@ -121,7 +121,6 @@ p {
 }
 
 .hero-button {
-    text-align: center;
     font-size: 16px;
     font-weight: 700;
     line-height: 1.87;
@@ -148,7 +147,6 @@ p {
 
 .hero-title {
     color: var(--main-background);
-    text-align: center;
     font-size: 44px;
     font-weight: 900;
     line-height: 1.87;
