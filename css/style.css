@@ -37,7 +37,7 @@ p {
 .container {
     width: 1200px;
     margin: 0 auto;
-    padding: 15 15px;
+    padding: 0 15px;
     outline: 1px solid red;
 }
 
@@ -120,20 +120,7 @@ p {
     letter-spacing: 0.28px;
 }
 
-
-
-
 .hero-button {
-    margin-top: 30px;
-    margin-bottom: 200px;
-
-}
-
-
-
-
-.hero-button {
-
     text-align: center;
     font-size: 16px;
     font-weight: 700;
@@ -146,7 +133,6 @@ p {
     padding-right: 25px;
     padding-left: 25px;
     margin-top: 30px;
-    margin-bottom: 200px;
 }
 
 .hero {
@@ -156,7 +142,8 @@ p {
     line-height: 1.87;
     letter-spacing: 0.96px;
     display: flex;
-    
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .hero-title {
@@ -167,16 +154,12 @@ p {
     line-height: 1.87;
     letter-spacing: 2.64px;
     text-transform: uppercase;
-    margin-top: 200px;
-    display: flex;
-    justify-content: center;
 }
 
-
-
-
-
-
+.advantages {
+    padding-top: 115px;
+    padding-bottom: 118px;
+}
 
 .advantages-list {
     display: flex;
@@ -184,9 +167,6 @@ p {
     padding-top: 94px;
 }
 
-.team-caption {
-    padding-bottom: 10px;
-}
 
 .advantages-features {
     color: var(--title-color);
@@ -196,13 +176,11 @@ p {
     line-height: 1.14;
     letter-spacing: 0.42px;
     text-transform: uppercase;
-    padding-top: px;
 }
 
 .advantages-text {
     color: var(--aditional-color);
     width: 270px;
-
     flex-shrink: 0;
     font-size: 14px;
     font-weight: 400;
@@ -225,29 +203,25 @@ p {
     font-weight: 700;
     line-height: 1.16;
     letter-spacing: 1.08px;
-    padding-top: 127px;
+}
 
+.work {
+    padding-top: 127px;
+    padding-bottom: 188px;
 }
 
 .work-img {
     width: 370px;
     height: 294px;
-
+    
 }
 
 .team-list {
+    
     display: flex;
     gap: 30px;
-    padding-top: 50px;
+    margin-top: 50px;
 }
-
-
-
-
-.team-title {
-    padding-top: 188px;
-}
-
 
 .team {
     text-align: center;
@@ -255,8 +229,13 @@ p {
     font-weight: 700;
     line-height: 1.66;
     letter-spacing: 1.08px;
+    padding-top: 188px;
+    padding-bottom: 124px;
 }
 
+.team-caption {
+    padding-bottom: 10px;
+}
 .team-img {
     width: 270px;
 }
