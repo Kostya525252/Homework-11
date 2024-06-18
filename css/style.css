@@ -156,7 +156,7 @@ p {
     line-height: 1.87;
     letter-spacing: 0.96px;
     display: flex;
-    padding: 0 350px;
+    
 }
 
 .hero-title {
@@ -259,7 +259,6 @@ p {
 
 .team-img {
     width: 270px;
-    height: 260px;
 }
 
 .team-caption {
