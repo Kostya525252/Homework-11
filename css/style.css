@@ -268,18 +268,6 @@ margin-bottom: 50px;
     
 }
 
-.address {
-    padding-top: 20px;
-}
-
-
-
-.address-link {
-    padding-top: 9px;
-    display: flex;
-}
-
-
 
 .footer {
     background-color: var(--footer-background);
@@ -311,6 +299,7 @@ margin-bottom: 50px;
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.42px;
+    display: flex;
 }
 
 .address-link {
@@ -319,6 +308,7 @@ margin-bottom: 50px;
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.42px;
+   
 }
 
 .address-link:hover {
@@ -328,6 +318,26 @@ margin-bottom: 50px;
     line-height: 1.71;
     letter-spacing: 0.42px;
 }
+
+
+
+
+.address-link {
+    margin-bottom: 50px;
+}
+
+.address {
+ padding-top: 20px;
+}
+
+.footer-item {
+  padding-top: 9px;
+}
+
+
+
+
+
 
 .content-title {
     color: var(--title-color);
@@ -344,6 +354,7 @@ margin-bottom: 50px;
     font-weight: 400;
     line-height: 1.87;
     letter-spacing: 0.48px;
+    padding-bottom: 20px;
 }
 
 .button-list {
@@ -351,8 +362,8 @@ margin-bottom: 50px;
     flex-wrap: wrap;
     gap: 8px;
     justify-content: center;
-    padding-bottom: 50px;
-    padding-top: 126px;
+    margin-bottom: 50px;
+    padding-top: 94px;
 }
 
 .btn-item:hover {
@@ -385,4 +396,8 @@ margin-bottom: 50px;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    
+}
+.content-cont {
+    margin-bottom: 94px;
 }
