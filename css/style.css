@@ -304,12 +304,6 @@ body {
     letter-spacing: 0.78px;
 }
 
-.footer-list {
-    margin-top: 9px;
-    display: flex;
-    flex-direction: column;
-    gap: 9px;
-}
 .logo-color {
     color: var(--header-logo);
     font-family: "Raleway";
@@ -319,16 +313,9 @@ body {
     letter-spacing: 0.78px;
 }
 
-.footer-item:nth-child(2) {
-   margin-bottom: 0;
-} 
-.address-item {
-    color: var(--main-background);
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.71;
-    letter-spacing: 0.42px;
-    display: flex;
+.address {
+    margin-top: 20px;
+    font-style: normal;
 }
 
 .address-link {
@@ -337,7 +324,30 @@ body {
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.42px;
+}
 
+.footer-list {
+    margin-top: 9px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.footer-item:nth-child(2) {
+   margin-bottom: 0;
+} 
+
+/* .footer-item {
+margin-bottom: 9px;
+} */
+
+.address-item {
+    color: var(--main-background);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+    display: flex;
 }
 
 .address-link:hover {
@@ -348,18 +358,58 @@ body {
     letter-spacing: 0.42px;
 }
 
-.address {
-    margin-top: 20px;
-    font-style: normal;
 
+
+/* portfolio */
+
+
+/* button */
+
+.button-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
+.button-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
 
+.btn-item {
+    border-radius: 4px;
+    color: var(--title-color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.62;
+    letter-spacing: 0.48px;
+    padding: 6px 22px;
+    border: none;
+}
 
-/* .footer-item {
-margin-bottom: 9px;
-} */
+.btn-item:hover {
+    color: var(--team-background);
+    background-color: var(--header-logo);
+}
 
+/* content */
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.content-item {
+flex-basis: calc((100% - 60px) / 3);
+}
+
+.content-img {
+    width: 100%;
+}
 
 .content-box {
 padding-top: 20px;
@@ -384,54 +434,3 @@ border: 1px solid #EEE;
     line-height: 1.87;
     letter-spacing: 0.48px;
 }
-
-.content-img {
-    width: 100%;
-}
- 
-.content-item {
-flex-basis: calc((100% - 60px) / 3);
-}
-
-.button-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    justify-content: center;
-    margin-bottom: 50px;
-   
-
-}
-
-.button-section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-
-.btn-item:hover {
-    color: var(--team-background);
-    background-color: var(--header-logo);
-}
-
-.btn-item {
-    border-radius: 4px;
-    color: var(--title-color);
-    text-align: center;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.62;
-    letter-spacing: 0.48px;
-    padding: 6px 22px;
-    border: none;
-}
-
-
-
-
-.content {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-
-}
-
